@@ -1,10 +1,3 @@
-/*!
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -282,7 +275,7 @@ th {
 	}
 
 	select {
-		background: #fff !important
+		background: rgb(24, 24, 24) !important
 	}
 
 	.navbar {
@@ -291,7 +284,7 @@ th {
 
 	.table td,
 	.table th {
-		background-color: #fff !important
+		background-color: rgb(24, 24, 24) !important
 	}
 
 	.btn>.caret,
@@ -349,13 +342,13 @@ textarea {
 }
 
 a {
-	color: #428bca;
+	color: #dadada;
 	text-decoration: none
 }
 
 a:hover,
 a:focus {
-	color: #2a6496;
+	color: #8193c3;
 	text-decoration: underline
 }
 
@@ -2641,8 +2634,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
 	color: #fff;
-	background-color: #428bca;
-	border-color: #357ebd
+	background-color: #d3d3d3;
+	border-color: #000000
 }
 
 .btn-primary:hover,
@@ -2650,9 +2643,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-	color: #fff;
-	background-color: #3276b1;
-	border-color: #285e8e
+	color: rgb(0, 0, 0);
+	background-color: #646464;
+	border-color: #ffffff
 }
 
 .btn-primary:active,
@@ -2676,7 +2669,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-	background-color: #428bca;
+	background-color: #cccccc;
 	border-color: #357ebd
 }
 
@@ -5445,7 +5438,7 @@ a.list-group-item.active>.badge,
 	padding: 30px;
 	margin-bottom: 30px;
 	color: inherit;
-	background-color: rgb(94, 94, 94)
+	background-color: #595959
 }
 
 .jumbotron h1,
